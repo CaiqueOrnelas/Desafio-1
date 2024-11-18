@@ -1,0 +1,94 @@
+*{margin: 0px;
+font-family: "Inter";}
+
+#menuSuperior{
+    background-color: #303030;
+    
+    color: white;
+}
+
+#tituloMenuSuperior{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 200px 0px 0px 60px;
+}
+
+#textoMenuSuperior{
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 75px;
+}
+
+#menuInformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 130px;
+}
+
+b{font-size: 32px;
+}
+
+p.menuInformacional{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#menuExperiencia{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 70px 0px 70px 0px;
+
+}
+
+#menssagemExperiencia{
+ margin-top: 170px;
+ padding: 0px 0px 100px 60px; 
+}
+
+#tituloExperiencia{
+    font-size: 50px;
+}
+
+#textoExperiencia{
+    font-size: 30px;
+}
+
+#menuCadastro{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+#tituloCadastro{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+input{
+    border-radius: 10px;
+    margin: 25px;
+    width: 508px;
+    height: 42px;
+    padding-left: 15px;
+    color: gray
+    
+}
+button{
+    color: white;
+    background-color: rgb(175, 114, 0);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-top: 55px;
+    transition-duration: 0.7s;
+    
+}
+button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #e9e4db;
+    transition-duration: 0.7s;
+}
